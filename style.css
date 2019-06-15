@@ -1,0 +1,19 @@
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+.container {
+	padding: 1em;
+}
+
+form > * {
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}

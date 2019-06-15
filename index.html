@@ -10,37 +10,56 @@
 			sizes="32x32"
 			href="./images/favicon-32x32.png"
 		/>
-
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<!-- <script src="app.js" defer></script> -->
 		<title>
 			Frontend Mentor | Huddle landing page with single column layout
 		</title>
-
-		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-		<style>
-			.attribution {
-				font-size: 11px;
-				text-align: center;
-			}
-			.attribution a {
-				color: hsl(228, 45%, 44%);
-			}
-		</style>
 	</head>
 	<body>
-		Build The Community Your Fans Will Love Huddle re-imagines the way we build
-		communities. You have a voice, but so does your audience. Create connections
-		with your users as you engage in genuine discussion. Sign Up For Early
-		Access Register About Us What We Do FAQ Career Blog Contact Us &copy; 2018
-		Huddle Copyright
-
-		<footer>
-			<p class="attribution">
-				This page started life as a challenge on
-				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-					>Frontend Mentor</a
-				>
-				🎉
+		<div class="container">
+			<h2>Build The Community Your Fans Will Love</h2>
+			<p>
+				Huddle re-imagines the way we build communities. You have a voice, but
+				so does your audience. Create connections with your users as you engage
+				in genuine discussion.
 			</p>
-		</footer>
+
+			<div class="img-container"><img src="images/screen-mockups.svg" /></div>
+			<h2>Sign Up For Early Access</h2>
+
+			<form>
+				<input
+					type="email"
+					name="prospect-email"
+					placeholder="email@example.com"
+				/>
+				<input type="submit" value="Register" />
+			</form>
+
+			<footer>
+				<div class="footer-left"></div>
+				<div class="footer-right">
+					<div>
+						<ul>
+							<li>About Us</li>
+							<li>What We Do</li>
+							<li>FAQ</li>
+							<li>Career</li>
+							<li>Blog</li>
+							<li>Contact Us</li>
+						</ul>
+					</div>
+					<div>&copy; 2018 Huddle Copyright</div>
+				</div>
+				<p class="attribution">
+					This page started life as a challenge on
+					<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+						>Frontend Mentor</a
+					>
+					🎉
+				</p>
+			</footer>
+		</div>
 	</body>
 </html>
