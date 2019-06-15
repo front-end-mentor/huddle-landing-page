@@ -33,7 +33,12 @@ form > input {
 	padding: 0.5em;
 	border-radius: 5px;
 }
-input[type="submit"] {
+
+form > input[type="email"] {
+	border: 1px solid gray;
+}
+
+form > input[type="submit"] {
 	border: none;
 	background-color: hsl(322, 100%, 66%);
 	color: white;
@@ -51,6 +56,15 @@ footer {
 	background-color: hsl(192, 100%, 9%);
 	color: white;
 	padding: 1em;
+}
+
+#logo-footer {
+	width: 200px;
+}
+
+.icon-container > img {
+	width: 50px;
+	fill: white;
 }
 
 ul {
