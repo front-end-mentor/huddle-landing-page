@@ -44,8 +44,11 @@ form > input[type="submit"] {
 	color: white;
 }
 
-input[type="submit"]:active {
+input[type="submit"]:hover {
 	background-color: hsl(322, 58%, 45%);
+}
+input[type="submit"]:active {
+	background-color: hsl(322, 40%, 35%);
 }
 
 /********************************************************************/
