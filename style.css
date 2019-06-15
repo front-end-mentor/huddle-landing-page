@@ -17,3 +17,8 @@ form > * {
 img {
 	width: 100%;
 }
+
+footer {
+	background-color: hsl(192, 100%, 9%);
+	color: white;
+}
