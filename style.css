@@ -65,6 +65,9 @@ footer {
 	color: white;
 	padding: 1em;
 	text-align: left;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 #logo-footer {
@@ -76,9 +79,14 @@ footer {
 	fill: white;
 }
 
-ul {
+.footer-right, .footer-left {
+	flex-grow: 1;
+}
+
+.footer-right > ul {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
 	list-style: none;
 	padding: 0;
 }
@@ -103,6 +111,19 @@ li {
 /****************************QUERIES*********************************/
 /********************************************************************/
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 550px) {
+	#copyright {
+		text-align: right;
+	}
+}
 
+@media only screen and (min-width: 750px) {
+	.footer-right > ul {
+		flex-direction: row;
+	}
+	.footer-right {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
 }
